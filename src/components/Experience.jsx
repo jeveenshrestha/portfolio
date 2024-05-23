@@ -15,7 +15,7 @@ const experience = [
     title: "Software Development Engineer",
     company: "Ouman Oy | Oulu, Finland",
     duration: "Jan 2016 - Feb 2022",
-    responsibility: `Ouman Oy l Linnunrata 14, Kempele Developed and maintained Web
+    responsibility: `Developed and maintained Web
     Interfaces for building automation system and floor heating system
     using AngularJS and ReactJS. I too was responsible for UX/UI
     designing, testing, and bug fixing. Many times worked in constant
@@ -25,7 +25,7 @@ const experience = [
     title: "Web Development Intern",
     company: "Ouman Oy | Oulu, Finland",
     duration: "Mar 2015 - Dec 2015",
-    responsibility: `Ouman Oy l Linnunrata 14, Kempele Learned about one of the Home
+    responsibility: `Learned about one of the Home
     Automation Devices, make a UX design and developed an AngularJS
     application. Tested and fixed bug, and documented.`,
   },

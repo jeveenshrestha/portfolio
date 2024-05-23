@@ -1,39 +1,23 @@
 import "./App.css";
-import Contacts from "./components/Contacts";
-import Education from "./components/Education";
-import Experience from "./components/Experience";
+import AboutMe from "./pages/AboutMe";
+import ExperienceAndEducation from "./pages/ExperienceAndEducation";
+import Home from "./pages/Home";
 import ProfessionalSkillSet from "./components/ProfessionalSkillSet";
-import Profile from "./components/Profile";
-import { ReactComponent as Facebook } from './images/facebook-f.svg';
-import { ReactComponent as Instagram } from './images/instagram.svg';
-import { ReactComponent as Linkedin } from './images/linkedin-in.svg';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      {/* <header className="App-header">
         <Contacts />
-      </header>
+      </header> */}
 
       <main>
-        <Profile />
-
-        <Experience />
-
-        <Education />
-
-        <ProfessionalSkillSet />
+        {/* <ProfessionalSkillSet /> */}
+        <Home id="home" />
+        <AboutMe id="about" />
+        <ExperienceAndEducation id="experienceAndEducation" />
 
       </main>
-
-      <footer>
-        <div>© 2024 by Jeveen Shrestha | jeveen2012shrestha</div>
-        <ul>
-          <li><a href="#"><Facebook /></a></li>
-          <li><a href=""><Instagram /></a></li>
-          <li><a href=""><Linkedin /></a></li>
-        </ul>
-      </footer>
     </div>
   );
 }

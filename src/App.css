@@ -1,8 +1,29 @@
+@import url(https://cdn.jsdelivr.net/gh/tonsky/FiraCode@4/distr/fira_code.css);
+
+@font-face {
+  font-family: "Sloop Script";
+  src: url("https://db.onlinewebfonts.com/t/b59603b6f55d074fa558185dcc86f5b1.eot");
+  src: url("https://db.onlinewebfonts.com/t/b59603b6f55d074fa558185dcc86f5b1.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/b59603b6f55d074fa558185dcc86f5b1.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/b59603b6f55d074fa558185dcc86f5b1.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/b59603b6f55d074fa558185dcc86f5b1.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/b59603b6f55d074fa558185dcc86f5b1.svg#Sloop Script")format("svg");
+}
+
+@font-face {
+  font-family: "Trend Slab W00 One";
+  src: url("https://db.onlinewebfonts.com/t/6afd263e46cfee1e4a481fccbcf1b307.eot");
+  src: url("https://db.onlinewebfonts.com/t/6afd263e46cfee1e4a481fccbcf1b307.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/6afd263e46cfee1e4a481fccbcf1b307.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/6afd263e46cfee1e4a481fccbcf1b307.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/6afd263e46cfee1e4a481fccbcf1b307.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/6afd263e46cfee1e4a481fccbcf1b307.svg#Trend Slab W00 One")format("svg");
+}
+
 html, body {
   background-color: #282c34;
   min-height: 100vh;
   color: white;
-  margin: 0 20px;
   font-size: 14px;
 }
 
@@ -12,41 +33,45 @@ html, body {
   padding: 0;
 }
 
-section {
-  margin-top: 20px;
-}
-
-section:has(+h2) {
-  margin-top: 10px;
-}
-
 article {
   text-align: justify;
   margin-top: 10px;
 }
 
-footer {
-  position: relative;
-  bottom: 0;
-  margin: 40px -40px 0 -40px ;
-  padding: 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: antiquewhite;
-  color: #282c34;
-}
-
-footer ul {
-  display: flex;
-}
-
 li {
   list-style-type: none;
-  margin-right: 10px;
 }
 
-footer ul li a {
+a {
   text-decoration: none;
-  color: #282c34;
+  color: inherit;
+}
+
+.home {
+  width: 100%;
+  height: 100vh;
+  background-image: url("./images/JEVEEN\ SHRESTHA.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.about {
+  width: 100%;
+  height: 100vh;
+  background-image: url("./images/top-view-desk2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 55%;
+  overflow: hidden;
+}
+
+.experienceAndEducation {
+  width: 100%;
+  height: 100vh;
+  background-image: url("./images/top-view-desk.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  overflow: hidden;
 }
